@@ -28,7 +28,7 @@ public class HTTPClient {
         HttpClientResponse response = client.executeRequest();
         assertEquals(302, response.getStatusCode());
 
-    }
+    } //
     @Test
     void shouldFailureStatusCode() throws IOException {
         ClientHTTP client = new ClientHTTP("urlecho.appspot.com", "/echo?status=401");

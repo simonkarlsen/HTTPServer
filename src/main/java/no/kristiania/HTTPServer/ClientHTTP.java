@@ -1,4 +1,4 @@
-package no.kristiania;
+package no.kristiania.HTTPServer;
 
 import java.io.IOException;
 import java.net.Socket;
@@ -7,10 +7,12 @@ public class ClientHTTP {
 
     private String host;
     private String requestTarget;
+    //private int port;
 
-    public ClientHTTP(String host, String requestTarget) {
+    public ClientHTTP(String host, /*int port,*/ String requestTarget) {
         this.host = host;
         this.requestTarget = requestTarget;
+        //this.port = port;
 
     }
 

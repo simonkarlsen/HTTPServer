@@ -1,7 +1,5 @@
 package no.kristiania.HTTPServer;
 
-import no.kristiania.ClientHTTP;
-import no.kristiania.HttpClientResponse;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

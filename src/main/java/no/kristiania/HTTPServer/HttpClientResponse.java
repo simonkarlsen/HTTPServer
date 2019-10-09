@@ -1,4 +1,4 @@
-package no.kristiania;
+package no.kristiania.HTTPServer;
 
 import java.io.IOException;
 import java.io.InputStream;
